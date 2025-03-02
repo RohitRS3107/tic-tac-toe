@@ -12,7 +12,25 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
+<<<<<<< HEAD
     "deploy": "gh-pages -d build"
   },
   "homepage": "https://your-username.github.io/your-repo-name"
+=======
+    "deploy": "main -d build"
+  },
+  "homepage": "https://your-username.github.io/your-repo-name",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+>>>>>>> 1018944 (bhya)
 }
